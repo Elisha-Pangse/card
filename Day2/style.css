@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:aqua;
+}
+header{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    display: flex;
+    padding: 20px 20px;
+    justify-content:space-around;
+    align-items: center;
+}
+header h1{
+    font-size: 20px;
+    color: aqua;
+}
+span{
+    color: brown;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: aqua;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.search input{
+    border: none;
+    width: 200px;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.search button{
+    width: 35px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    border: 2px solid black;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+}
+main .text{
+    height: 20px;
+    width: 100%;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+main .container{
+    height: 80%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+
+    
+    
+}
+.container .rightside{
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    background-color: rgba(0, 119, 255, 0.616);
+    border-radius: 30px;
+
+}
+.ontainer .leftside{
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+
+}
+.rightside .top{
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rightside .top h2{
+    color: white;
+}
+.rightside .top{
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+}
+.rightside .bottom{
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    color: white;
+}
+.bottom .p{
+    font-size: 18px;
+    text-align: center;
+}
+.container .leftside{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.container .leftside form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+.leftside form input{
+    width: 100%;
+    padding: 10px;
+    background-color: #111;
+    color: #ffff;
+    
+}
+.leftside form input ::placeholder{
+    color: white;
+    font-size: 18px;
+}
+.leftside form select{
+    width:100%;
+    padding: 10px;
+    background-color: #262626;
+    color: #ffff;
+
+}
+form .Name{
+    display: flex;
+    gap: 20px;
+
+
+}
+textarea{
+    background-color: #262626;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    color: #ffff;
+    font-size: 18px;
+}
+form button{
+    width: 2oopx;
+    padding: 15px;
+    background-color:orangered;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
